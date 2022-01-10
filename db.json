@@ -1,31 +1,22 @@
 {
-  "posts": [
+  "status": "success",
+  "data": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "month": "January",
+      "monthvalue": "98",      
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "month": February
+      "monthvalue": "55",      
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "month": "March",
+      "monthvalue": "75",      
+    },{
+      "month": "April",
+      "monthvalue": "85",      
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "errors": {},
+  "message": "Data feteched Succesfully"
 }
